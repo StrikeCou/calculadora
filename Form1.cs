@@ -31,6 +31,19 @@ namespace calculadora
         {
             label1.Text = Int64.Parse(text1.Text) * Int64.Parse(text2.Text) + "";
         }
+
+        private void btndividir_Click(object sender, EventArgs e)
+        {
+            if (text2.Text.Equals("0"))
+            {
+                label1.Text =  "Error al dividir por 0";
+            }
+            else
+            {
+                label1.Text = Int64.Parse(text1.Text) / Int64.Parse(text2.Text) + "";
+            }
+           
+        }
     }
     }
 

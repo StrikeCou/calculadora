@@ -65,6 +65,7 @@
             this.btndividir.TabIndex = 2;
             this.btndividir.Text = "dividir";
             this.btndividir.UseVisualStyleBackColor = true;
+            this.btndividir.Click += new System.EventHandler(this.btndividir_Click);
             // 
             // btnmultiplicar
             // 
